@@ -8,7 +8,30 @@ A function called str_finder(lst) that accepts a list as an argument and returns
 A function called fah_to_cel_converter(degrees) that takes Fahrenheit degrees as parameter and returns it converted to Celsius degrees rounded to 2 decimal places.
 
 ### Challenge 3
-CSV file: 
+[CSV file:](https://github.com/markgacoka/Python-Challenges/blob/master/coffeeshops%20-%20Sheet1.csv)
+
+Coffee shops                   |  Average Daily Revenue
+-------------------------------|-----------------------
+Coffee Cultures                |  1300
+sightglass coffee              |  1345
+flywheel coffee roasters       |  1097
+blue bottle                    |  987
+starbucks                      |  2356
+ritual roasters coffee         |  1029
+Equator Coffees & Teas         |  1567
+Tartine Manufactory            |  2039
+Sightglass Coffee              |  2790
+Caffe Trieste                  |  2384
+George and Lennie              |  1307
+Linea Caffe                    |  1289
+Saint Frank                    |  1038
+Wrecking Ball Coffee Roasters  |  876
+hearth                         |  1567
+the buena vista                |  3647
+cento                          |  1390
+vervo coffee                   |  1098
+
+
 The .csv file contains the hypothetical data of daily revenues of coffee shops located in San Francisco. 
 Write a function sum_revenue() that downloads this data into your program and finds the total revenue of all coffeeshops. Your function should not receive arguments and should find the sum by iterating through the numbers in the second column of the file. No external libraries can be used. You should check your result by comparing it to the sum returned by using the built-in sum function.
 * Return a tuple in the format (sum, boolean)
